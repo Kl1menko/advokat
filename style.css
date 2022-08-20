@@ -140,6 +140,15 @@ ul li:hover {
   margin-top: 40px;
 }
 
+.btn-click:hover {
+  transition: 0.11s box-shadow ease-in-out;
+  box-shadow: 9px 7px 13px 1px rgba(0, 0, 0, 0.39);
+}
+
+.btn-click span {
+  color: #fff;
+}
+
 /*burger*/
 .navbar {
   display: none;
@@ -198,4 +207,73 @@ ul li:hover {
 
 .navbar__wrap .menu {
   display: none;
+}
+
+/*WORK*/
+
+.work {
+  background-color: #fafafa;
+}
+
+.work-header {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.work-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.work-item {
+  max-width: 400px;
+  color: #101010;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.work-item h3 {
+  font-size: 28px;
+}
+
+.item-header {
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 120px;
+  color: rgba(16, 16, 16, 0.15);
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.item-header img {
+  max-width: 72px;
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*CATEGORY*/
+.category-header {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.category-header h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 40px 0;
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+  padding-bottom: 15px;
 }
