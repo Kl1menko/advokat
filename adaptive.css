@@ -198,4 +198,12 @@
   tbody td {
     padding-left: 20px;
   }
+
+  .acor-container .acor-body {
+    width: calc(100% - 100px);
+  }
+
+  .acor-container label {
+    width: 95%;
+  }
 }
