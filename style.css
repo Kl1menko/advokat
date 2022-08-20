@@ -573,6 +573,10 @@ ul {
   border-top: 1px solid black;
 }
 
+.subtext a:hover {
+  color: #a6a2a2;
+}
+
 .subtext img {
   width: 25px;
 }
@@ -586,4 +590,27 @@ ul {
   font-weight: 500;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
+}
+
+.content-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 95px;
+}
+
+.main-content p {
+  font-size: 24px;
+  font-weight: 300;
+  padding-bottom: 55px;
+}
+
+.main-content span {
+  font-weight: 700;
+}
+
+.center {
+  font-size: 24px;
+  text-align: center;
 }
