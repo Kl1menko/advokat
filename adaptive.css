@@ -158,4 +158,23 @@
   .item-header {
     z-index: 2;
   }
+
+  .category-header h2 {
+    font-size: 26px;
+  }
+
+  .category-header h3 {
+    padding-left: 25px;
+  }
+
+  .category-items {
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category-item {
+    width: 360px;
+    height: 200px;
+  }
 }
