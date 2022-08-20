@@ -2,10 +2,12 @@
   /*burger*/
   .navbar {
     display: block;
+    z-index: 100;
   }
 
   .navbar__wrap .menu {
     display: none;
+    z-index: 100;
   }
 
   .hamb {
@@ -151,5 +153,9 @@
     padding-top: 50px;
     flex-direction: column;
     align-items: center;
+  }
+
+  .item-header {
+    z-index: 2;
   }
 }

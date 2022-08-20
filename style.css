@@ -211,10 +211,6 @@ ul li:hover {
 
 /*WORK*/
 
-.work {
-  background-color: #fafafa;
-}
-
 .work-header {
   font-size: 30px;
   font-weight: 500;
@@ -262,6 +258,10 @@ ul li:hover {
 }
 
 /*CATEGORY*/
+.category-items {
+  background-color: #fafafa;
+}
+
 .category-header {
   font-size: 30px;
   font-weight: 500;
@@ -272,8 +272,43 @@ ul li:hover {
 .category-header h3 {
   font-size: 28px;
   font-weight: 500;
-  margin: 40px 0;
+  margin-top: 40px;
   text-align: left;
   border-bottom: 1px solid rgba(0, 0, 0, 0.39);
   padding-bottom: 15px;
+}
+
+.category-items {
+  padding: 50px 15px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.category-item {
+  background: #fff;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  border-radius: 25px;
+  padding: 30px 20px 40px 20px;
+  margin: 0px auto 40px 0px;
+  width: 406px;
+  height: 190px;
+}
+
+.category-item h5 {
+  font-size: 22px;
+  line-height: 130%;
+}
+
+.category-item ul {
+  padding: 10px 0 10px 20px;
+}
+
+.item-footer p {
+  text-align: end;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
 }
