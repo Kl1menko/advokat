@@ -490,11 +490,9 @@ ul li i:after {
   color: #000;
 }
 #faq ul li input[type="checkbox"]:checked ~ p {
-  /*margin-top: 0;*/
   max-height: 0;
   transition: 0.3s;
   opacity: 0;
-  /*transform: translate(0, 50%);*/
 }
 #faq ul li input[type="checkbox"]:checked ~ i:before {
   transform: translate(2px, 0) rotate(45deg);
@@ -540,8 +538,52 @@ ul {
   list-style: none;
 }
 
-img {
-  vertical-align: middle;
-  height: auto;
-  width: 100%;
+/*CONTACTS*/
+
+.carta {
+  border-radius: 18px;
+  box-shadow: 6px 5px 23px -2px rgba(0, 0, 0, 0.68);
+}
+
+.contacts-header h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contacts-content {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 35px;
+}
+
+.contacts-info h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.contacts-info span {
+  font-size: 28px;
+}
+
+.subtext {
+  margin-top: 35px;
+  text-align: center;
+  border-top: 1px solid black;
+}
+
+.subtext img {
+  width: 25px;
+}
+
+.subtext h4 {
+  font-size: 30px;
+}
+
+.subtext p {
+  font-size: 26px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
 }
