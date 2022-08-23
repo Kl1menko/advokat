@@ -1,3 +1,38 @@
+@media (max-width: 1366px) {
+  .wrapper {
+    margin: 20px 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header-top-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-top {
+    margin-top: 25px;
+  }
+  .contact-tel {
+    margin-top: 15px;
+  }
+  .hero-content-right img {
+    max-width: 350px;
+  }
+  .category-items {
+    flex-direction: column;
+    align-content: center;
+  }
+  .contacts-content {
+    gap: 25px;
+    align-content: center;
+  }
+  .carta {
+    display: flex;
+    max-width: 300px;
+  }
+}
+
 @media (max-width: 1000px) {
   /*burger*/
   .navbar {
@@ -177,7 +212,7 @@
   .category-item {
     margin: 0 auto;
     width: 340px;
-    height: 200px;
+    min-height: 200px;
   }
 
   .prices-header h2 {
@@ -196,11 +231,15 @@
   }
 
   thead {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   tbody td {
     padding-left: 20px;
+  }
+
+  #faq li h2 {
+    font-size: 20px;
   }
 
   .acor-container .acor-body {
@@ -228,11 +267,13 @@
   }
 
   .contacts-info h2 {
-    font-size: 26px;
-    font-weight: 500;
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 700;
   }
 
   .subtext h4 {
+    margin-top: 10px;
     font-size: 18px;
   }
 
