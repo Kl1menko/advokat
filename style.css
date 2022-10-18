@@ -50,7 +50,7 @@ header {
 
 .header-top-content {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   padding: 10px 15px 0 15px;
 }
@@ -273,11 +273,11 @@ ul li:hover {
   text-align: center;
 }
 
-.category-header h3 {
-  font-size: 28px;
+.category-header h2 {
+  font-size: 48px;
   font-weight: 500;
   margin-top: 40px;
-  text-align: left;
+  text-align: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.39);
   padding-bottom: 15px;
 }
@@ -433,4 +433,61 @@ table tbody tr {
   font-size: 18px;
   font-weight: 500;
   text-align: center;
+}
+
+/*political*/
+.main-content {
+  padding: 5px 20px;
+}
+.sub-txt {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.content-text {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+/*ABOUUT*/
+
+.content-about {
+  padding: 10px 25px;
+}
+
+.about-subtext {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 35px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  gap: 35px;
+}
+
+.about-logo img {
+  max-width: 350px;
+}
+
+.about-txt ul {
+  margin-bottom: 20px;
+}
+.about-txt ul ol {
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.about-txt p {
+  font-size: 20px;
+  font-weight: 300;
+}
+p span {
+  font-weight: 500;
 }
