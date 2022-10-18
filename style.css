@@ -375,6 +375,11 @@ table tbody tr {
   font-size: 28px;
 }
 
+.work-txt {
+  text-align: center;
+  padding-top: 20px;
+}
+
 .subtext {
   margin-top: 35px;
   text-align: center;
